@@ -24,7 +24,7 @@ const WeatherPage = () => {
 
 
     const isDay = todayWeather.isDay ?? true;
-
+// callback function , dependancy array
     useEffect(()=>{
         fetchCoordinates( async(latitude,longitude)=>{
             // console.log(latitude,longitude);
